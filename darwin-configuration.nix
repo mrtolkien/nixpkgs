@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{  pkgs, ... }:
 
 let
   cliPackages = import ./packages-cli.nix { inherit pkgs; };

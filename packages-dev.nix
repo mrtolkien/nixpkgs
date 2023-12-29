@@ -29,6 +29,15 @@
   pkgs.sops
   pkgs.stern
   pkgs.yq
+  pkgs.act
+  pkgs.pipx
+  # Used for sshx build
+  pkgs.protobuf
+  pkgs.supabase-cli
+  pkgs.deno
+  # pkgs.conda-shell
+  pkgs.go
+  pkgs.nil
   # # Devenv
   # (import (fetchTarball "https://github.com/cachix/devenv/archive/v0.6.2.tar.gz")).default
 ]
